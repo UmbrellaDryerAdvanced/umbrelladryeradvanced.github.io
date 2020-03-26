@@ -1,4 +1,4 @@
-![udad](https://user-images.githubusercontent.com/62671277/77656367-0b052f00-6f74-11ea-8fc8-449c6318c87a.png)
+![logo3](https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png)
  <ol>
    - <a href="http://umbrelladryeradvanced.github.io/immagini"><strong>Galleria Immagini</strong></a>
    <br/>
