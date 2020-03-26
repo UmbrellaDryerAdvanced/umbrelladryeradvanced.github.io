@@ -2,7 +2,7 @@
 <ol>
  - <a href="http://umbrelladryeradvanced.github.io/immagini"><strong>Galleria Immagini</strong></a>
  <br/>
-- B
+ - <a href="https://it.wikipedia.org/wiki/Strage_di_piazza_Fontana"><strong>Scopri di più</strong></a>
   <br/>
 - C
   <br/>
