@@ -4,7 +4,8 @@
   <ol>
     Umbrella Dryer Advanced è un’azienda che si è inserita nel mercato con l'obiettivo di portare un’idea innovativa, che possa essere         utile nella quotidianità. L’azienda punta sul diffondere sul mercato Europeo questo prodotto, il quale è attualmente diffuso               unicamente in Oriente e in America. La nostra idea nasce dalle piccole inconvenienze quotidiane: un ombrello bagnato che sporca e         inumidisce i vestiti, pozze d’acqua sparse in giro. Abbiamo quindi colto l’occasione di questo progetto per poter mettere in atto la       nostra idea: 
   <br/>
- </ol>
+  
   **un asciuga ombrelli**. 
- <br/>
+  <br/>
+ </ol>
 Nel breve termine, contiamo di riuscire a vendere piccole quantità di prodotti, con il fine di raccogliere i fondi necessari per far prendere piede all’azienda. Nel lungo termine invece, puntiamo ad espanderci per poter non solo diffondere il prodotto dovunque sia possibile, ma anche per poter trattare altri prodotti non ancora presenti in Europa.
