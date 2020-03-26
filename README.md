@@ -1,10 +1,11 @@
-![logo3](https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png)
+
+<img src="https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png" alt="Logo3">
  <ol>
    - <a href="http://umbrelladryeradvanced.github.io/immagini"><strong>Galleria Immagini</strong></a>
    <br/>
    - <a href="https://it.wikipedia.org/wiki/Strage_di_piazza_Fontana"><strong>Scopri di più</strong></a>
    <br/>
-   - <a href="https://www.youtube.com/watch?v=PSi09nxiyHA"><strong>Sei Maria Grazia da Bassano? Guarda qui:</strong></a>
+   - <a href="https://www.youtube.com/watch?v=PSi09nxiyHA"><strong>Sei Maria Grazia da Bassano? Guarda qui</strong></a>
    <br/>
  </ol>
 <br/>
