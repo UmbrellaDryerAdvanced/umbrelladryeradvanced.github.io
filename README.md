@@ -4,7 +4,7 @@
    <br/>
    - <a href="https://it.wikipedia.org/wiki/Strage_di_piazza_Fontana"><strong>Scopri di più</strong></a>
    <br/>
-   - C
+   - <a href="https://www.youtube.com/watch?v=PSi09nxiyHA"><strong>Sei Maria Grazia da Bassano? Guarda qui:</strong></a>
    <br/>
  </ol>
 <br/>
