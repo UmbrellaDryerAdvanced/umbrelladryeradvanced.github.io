@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="{{ site.lang | default: "it - ITA" }}">
   <head>
 
@@ -20,21 +19,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
-  <body>
-
-    <header class="page-header" role="banner">
-      <p style="text-align:right;"><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(250,255,250)"><font size="2">Galleria Immagini</font></a></p>
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-    </header>
-	
+  <body>	
 	<article>
 		<img src="https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png" alt="Logo3">
 		<ul>
@@ -59,7 +44,7 @@
       {{ content }}
 
       <footer>
-        <a href="giorgiutti.cristian2@gmail.com"><strong>Contattaci via email</strong></a>
+        	<a href="giorgiutti.cristian2@gmail.com"><strong>Contattaci via email</strong></a>
 		<a href="https://github.com/UmbrellaDryerAdvanced"><strong>Contattaci via GitHub</strong></a>
       </footer>
     </main>
