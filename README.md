@@ -24,4 +24,4 @@
       {{ content }}
     </main>
   </body>
-</html>
+
