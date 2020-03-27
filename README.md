@@ -21,7 +21,6 @@
 		</p>
 	</article>
     <main id="content" class="main-content" role="main">
-      {{ content }}
     </main>
   </body>
 
