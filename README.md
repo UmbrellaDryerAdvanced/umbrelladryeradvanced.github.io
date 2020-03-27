@@ -22,11 +22,6 @@
 	</article>
     <main id="content" class="main-content" role="main">
       {{ content }}
-
-      <footer>
-        	<a href="giorgiutti.cristian2@gmail.com"><strong>Contattaci via email</strong></a>
-		<a href="https://github.com/UmbrellaDryerAdvanced"><strong>Contattaci via GitHub</strong></a>
-      </footer>
     </main>
   </body>
 </html>
