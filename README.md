@@ -1,12 +1,4 @@
-<html lang="{{ site.lang | default: "it - ITA" }}">
-  <head>
-{% seo %}
-	<meta name = "author" content = "Giorgiutti &quot;GiulioCesare02&quot; Cristian">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
+
   <body>	
 	<article>
 		<img src="https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png" alt="Logo3">
