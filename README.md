@@ -1,17 +1,5 @@
 <html lang="{{ site.lang | default: "it - ITA" }}">
   <head>
-
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
-
 {% seo %}
 	<meta name = "author" content = "Giorgiutti &quot;GiulioCesare02&quot; Cristian">
     <meta name="viewport" content="width=device-width, initial-scale=1">
