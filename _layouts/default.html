@@ -20,7 +20,7 @@
   </head>
   <body>
 
-    <header class="page-header" role="banner">
+    <header>
       <p style="text-align:right;"><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(250,255,250)"><font size="2">Galleria Immagini</font></a></p>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
@@ -33,6 +33,10 @@
     <main id="content" class="main-content" role="main">
       {{ content }}
       <style>
+        header {  
+          background: rgb(2,0,36);
+          background: linear-gradient(190deg, rgba(2,0,36,1) 4%, rgba(31,196,18,1) 43%, rgba(0,212,255,1) 100%);
+        
           footer{
           position: fixed;
           left: 0;
