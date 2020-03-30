@@ -2,9 +2,9 @@
 	<article>
 		<img src="https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png" alt="Logo3">
 		<ul>
-			<li><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(250,255,250)"><strong>Galleria Immagini</strong></a></li>
-			<li><a href="https://it.wikipedia.org/wiki/Strage_di_piazza_Fontana" style="color: rgb(250,255,250)"><strong>Scopri di più</strong></a></li>
-			<li><a href="https://www.youtube.com/watch?v=PSi09nxiyHA" style="color: rgb(250,255,250)"><strong>Sei Maria Grazia da Bassano? Guarda qui</strong></a></li>
+			<li><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(255, 0, 0)"><strong>Galleria Immagini</strong></a></li>
+			<li><a href="https://it.wikipedia.org/wiki/Strage_di_piazza_Fontana" style="color: rgb(255, 0, 0)"><strong>Scopri di più</strong></a></li>
+			<li><a href="https://www.youtube.com/watch?v=PSi09nxiyHA" style="color: rgb(255, 0, 0)"><strong>Sei Maria Grazia da Bassano? Guarda qui</strong></a></li>
 		</ul>
 		<br/>
 		<strong>LA NOSTRA MISSION</strong>
