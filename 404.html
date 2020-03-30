@@ -1,7 +1,78 @@
-<body>
- <article>
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="##ffffff">
+    <link rel="icon" href="https://user-images.githubusercontent.com/62671277/77897976-b49d3680-727a-11ea-959d-c5a327566e06.png" type="image/png" />
+    <meta name="msapplication-navbutton-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="##ffffff">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">   
+  </head>
+  
+  <body>
+
+    <header>
+     <ul class="lista-footer">
+      <li><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(250,255,250); margin-left: 50px"><font size="2">Immagini</font></a></li>
+      <li><a href="http://umbrelladryeradvanced.github.io/informazioni" style="color: rgb(250,255,250); margin-left: 50px"><font size="2">Informazioni</font></a></li>
+     </ul>
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    </header>
+    <article>
     <h1 style="color: rgb(255,0,0)"> ERROR 404 </h1>
     <a href="http://umbrelladryeradvanced.github.io" style="color: rgb(252, 111, 3);font-size: 50px">Redirect</a>
-</article>
-</body>
+    </article>
 
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      <style>
+        header {  
+          padding-top: 0;
+          top: 0;
+          background: rgb(223,17,198);
+          background: linear-gradient(180deg, rgba(223,17,198,1) 11%, rgba(230,105,9,1) 49%, rgba(255,0,39,1) 82%);
+          height: 250px;
+        }
+        ul.lista-header { 
+          padding-left: 0;
+        }
+        ul.lista-header li {
+          margin-right: 15px;      
+          display: inline-block;
+        }
+        header h1 {
+          color: #ffffff;
+          text-transform: uppercase;
+          text-align: center;
+        }
+        header h2 {
+          color: #ffffff;
+          text-transform: uppercase;
+          text-align: center;
+        }
+          footer{
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          text-align: center;
+          background: rgb(255,0,0);
+       }
+       ul.lista-footer {
+           padding-left: 0;
+        }
+       ul.lista-footer li {
+          display: inline-block;
+          margin-right: 15px;      
+       }
+       </style>
+       <footer>
+         <div id="first"></div>
+           <ul class="lista-footer">
+             <li><a href="mailto:giorgiutti.cristian2@gmail.com" style="color: rgb(250,255,250)"><strong><font size="2">Contattaci via Email</font></strong></a></li>
+             <li><a href="https://github.com/UmbrellaDryerAdvanced" style="color: rgb(250,255,250)"><strong><font size="2">Contattaci via GitHub</font></strong></a></li>
+           </ul>
+       </footer>
+    </main>
+  </body>
