@@ -21,7 +21,9 @@
   <body>
 
     <header>
-      <p style="text-align:right;"><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(250,255,250)"><font size="2">Galleria Immagini</font></a></p>
+     <ul class="lista-footer">
+      <li style="text-align:right;"><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(250,255,250)"><font size="2">Galleria Immagini</font></a></li>
+     </ul>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.show_downloads %}
@@ -34,17 +36,35 @@
       {{ content }}
       <style>
         header {  
-          background: rgb(2,0,36);
-          background: linear-gradient(190deg, rgba(2,0,36,1) 4%, rgba(31,196,18,1) 43%, rgba(0,212,255,1) 100%);
-        
+          background: rgb(29,122,27);
+          background: linear-gradient(191deg, rgba(29,122,27,1) 26%, rgba(31,196,18,1) 54%, rgba(0,212,255,1) 100%);
+        }
+        ul.lista-header { 
+          padding-left: 0;
+        }
+        ul.lista-header li {
+          display: inline-block;
+          color: #ffffff;
+          margin-right: 15px;      
+        }
+        header h1 {
+          color: #ffffff;
+          text-transform: uppercase;
+          text-align: center;
+        }
+        header h2 {
+          color: #ffffff;
+          text-transform: uppercase;
+          text-align: center;
+        }
           footer{
           position: fixed;
           left: 0;
           bottom: 0;
           width: 100%;
           text-align: center;
-          background: rgb(2,0,36);
-          background: linear-gradient(190deg, rgba(2,0,36,1) 4%, rgba(31,196,18,1) 43%, rgba(0,212,255,1) 100%);
+          background: rgb(29,122,27);
+          background: linear-gradient(191deg, rgba(29,122,27,1) 26%, rgba(31,196,18,1) 54%, rgba(0,212,255,1) 100%);
        }
        ul.lista-footer {
            padding-left: 0;
