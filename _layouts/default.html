@@ -22,7 +22,7 @@
 
     <header>
      <ul class="lista-footer">
-      <li><a href="http://umbrelladryeradvanced.github.io/immagini">Immagini</a></li>
+      <li><a href="http://umbrelladryeradvanced.github.io/immagini" style="color: rgb(250,255,250)"><strong><font size="2">Immagini</font></strong></a></li>
      </ul>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
@@ -41,17 +41,12 @@
           height: 250px;
         }
         ul.lista-header { 
-          padding-right: 0;
+          padding-left: 0;
         }
         ul.lista-header li {
-          float: right;
+          margin-right: 15px;      
           display: inline-block;
         }
-        ul.lista-header li a {
-        color: #ffffff; 
-        font-size: 2px;
-        }
-        
         header h1 {
           color: #ffffff;
           text-transform: uppercase;
