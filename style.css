@@ -1,63 +1,95 @@
-<!DOCTYPE html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="##ffffff">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://user-images.githubusercontent.com/62671277/77897976-b49d3680-727a-11ea-959d-c5a327566e06.png" type="image/png" />
-    <meta name="msapplication-navbutton-color" content="#ffffff">
-    <meta name="apple-mobile-web-app-status-bar-style" content="##ffffff">
-    <title>Umbrella Dryer Advanced</title>
-  </head>
-
-<body>
-
-    <header>
-     <ul class="lista-header">
-      <li><a href="immagini.html">Immagini</a></li>
-      <li><a href="informazioni.html">Informazioni</a></li>
-     </ul>
-      <h1><a href="index.html">umbrella dryer advanced</a></h1>
-      <h2>maestri nell'asciugatura</h2>
-    </header>
-
-    <style>
-      article li a {
-        color: rgb(255, 0, 0);
-        font-size: 2;
-        font-weight: bold;
-      }
-    </style>
-
-    <article>
-  		<img src="https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png" alt="Logo3" style="max-width: 100%">
-  		<ul>
-  			<li><a href="immagini.html">Galleria Immagini</a></li>
-  			<li><a href="informazioni.html">Scopri di più</a></li>
-  		</ul>
-  		<br/>
-  		<strong>LA NOSTRA MISSION</strong>
-  		<br/>
-  		<p>
-  			Umbrella Dryer Advanced è un’azienda che si è inserita nel mercato con l'obiettivo di portare un’idea innovativa, che possa essere utile nella quotidianità.
-  			L’azienda punta sul diffondere sul mercato Europeo questo prodotto, il quale è attualmente diffuso unicamente in Oriente e in America. La nostra idea nasce
-  			dalle piccole inconvenienze quotidiane: un ombrello bagnato che sporca e inumidisce i vestiti, pozze d’acqua sparse in giro. Abbiamo quindi colto l’occasione
-  			di questo progetto per poter mettere in atto la nostra idea:
-  			<br/>
-  			<strong>un asciuga ombrelli</strong>.
-  			<br/>
-  		</p>
-  		<p>
-  		Nel breve termine, contiamo di riuscire a vendere piccole quantità di prodotti, con il fine di raccogliere i fondi necessari per far prendere piede all’azienda. Nel lungo termine invece, puntiamo ad espanderci per poter non solo diffondere il prodotto dovunque sia possibile, ma anche per poter trattare altri prodotti non ancora presenti in Europa.
-  		</p>
-  	</article>
-
-       <footer>
-         <ul class="lista-footer">
-           <li><a href="mailto:giorgiutti.cristian2@gmail.com">Contattaci via Email</a></li>
-           <li><a href="https://github.com/UmbrellaDryerAdvanced">Contattaci via GitHub</a></li>
-        </ul>
-       </footer>
-    </main>
-  </body>
-</html>
+html {
+  font-family: sans-serif, Arial, Helvetica;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  display: block;
+  background: #1a1918;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding-top: 0px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #c9c9c9;
+  }
+a {
+  text-decoration: none;
+  }
+header {
+  margin-top: 0;
+  padding-top: 0;
+  top: 0;
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 30%, rgba(210,17,11,1) 52%, rgba(205,15,9,1) 68%, rgba(112,20,17,1) 82%, rgba(73,22,20,1) 89%, rgba(26,25,24,1) 97%);
+  height:250px;
+  }
+ul.lista-header {
+  padding-left: 0;
+}
+ul.lista-header li {
+  display: inline-block;
+}
+ul.lista-header li a {
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 3;
+}
+header h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.25rem;
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+}
+header h1 a {
+  color: #ffffff;
+}
+header h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+}
+article {
+  line-height: 1.5;
+  margin-bottom: 1em;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 0px;
+  padding-bottom: 10%;
+  font-size: 1.3rem;
+  word-wrap: break-word;
+}
+article h1 {
+  color: rgb(255,0,0);
+  text-transform: capitalize;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgb(255,0,0);
+}
+ul.lista-footer {
+   padding-left: 0;
+}
+ul.lista-footer li {
+  display: inline-block;
+  text-align: center;
+}
+ul.lista-footer li a {
+  color: #ffffff;
+  margin-left: 50px;
+  font-size: 2;
+  font-weight: bold;
+}
