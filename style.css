@@ -22,7 +22,7 @@ header {
   padding-top: 0;
   top: 0;
   background: rgb(255,0,0);
-  background: linear-gradient(13deg, rgba(255,0,0,1) 20%, rgba(228,14,14,1) 50%, rgba(255,255,255,1) 80%);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 10%, rgba(228,14,14,1) 50%, rgba(255,255,255,1) 90%);
   height:250px;
   }
 ul.lista-header {
