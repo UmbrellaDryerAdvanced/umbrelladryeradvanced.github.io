@@ -1,5 +1,5 @@
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   display: block;
@@ -21,25 +21,31 @@ header {
   margin-top: 0;
   padding-top: 0;
   top: 0;
-  background: rgb(223,17,198);
-  background: linear-gradient(180deg, rgba(223,17,198,1) 11%, rgba(230,105,9,1) 49%, rgba(255,0,39,1) 82%);
-  height: 250px;
+  background: rgb(255,0,0);
+  background: linear-gradient(34deg, rgba(255,0,0,1) 30%, rgba(228,14,14,1) 50%, rgba(255,255,255,1) 70%);
+  height:250px;
   }
 ul.lista-header {
   padding-left: 0;
 }
 ul.lista-header li {
-  margin-right: 15px;
   display: inline-block;
-  font-size: 0.9rem;
+}
+ul.lista-header li a {
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 3;
 }
 header h1 {
-  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
   font-size: 2.25rem;
   margin-top: 0;
   margin-bottom: 0.1rem;
+}
+header h1 a {
+  color: #ffffff;
 }
 header h2 {
   color: #ffffff;
@@ -60,6 +66,10 @@ article {
   font-size: 1.3rem;
   word-wrap: break-word;
 }
+article h1 {
+  color: rgb(255,0,0);
+  text-transform: capitalize;
+}
 footer{
   position: fixed;
   left: 0;
@@ -73,6 +83,11 @@ ul.lista-footer {
 }
 ul.lista-footer li {
   display: inline-block;
-  margin-right: 15px;
-  font-size: 0.9rem;
+  text-align: center;
+}
+ul.lista-footer li a {
+  color: #ffffff;
+  margin-left: 50px;
+  font-size: 2;
+  font-weight: bold;
 }
