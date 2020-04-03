@@ -21,8 +21,8 @@ header {
   margin-top: 0;
   padding-top: 0;
   top: 0;
-  background: rgb(255,0,0);
-  background: linear-gradient(180deg, rgba(255,0,0,1) 30%, rgba(228,14,14,1) 60%, rgba(255,255,255,1) 90%);
+  background: rgb(231,23,13);
+  background: linear-gradient(180deg, rgba(231,23,13,1) 30%, rgba(255,0,0,1) 60%, rgba(255,255,255,1) 90%);
   height:250px;
   }
 ul.lista-header {
