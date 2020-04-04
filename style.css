@@ -18,6 +18,9 @@ body {
 a {
   text-decoration: none;
   }
+article a {
+  color: #ff6a00;
+}
 header {
   margin-top: 0;
   padding-top: 0;
