@@ -8,24 +8,34 @@
     <meta name="msapplication-navbutton-color" content="#ffffff">
     <meta name="apple-mobile-web-app-status-bar-style" content="##ffffff">
     <title>Umbrella Dryer Advanced</title>
+    
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
   </head>
 
-  <body>
-
-    <header>
-     <ul class="lista-footer">
-      <li><a href="immagini.html" style="color: rgb(250,255,250); margin-left: 50px"><font size="2">Immagini</font></a></li>
-      <li><a href="informazioni.html" style="color: rgb(250,255,250); margin-left: 50px"><font size="2">Informazioni</font></a></li>
-     </ul>
-      <h1>umbrella dryer advanced</h1>
-      <h2>maestri nell'asciugatura</h2>
-    </header>
-
+<body>
+    <style>
+      article li a {
+        color: rgb(255, 0, 0);
+        font-size: 2;
+        font-weight: bold;
+      }
+    </style>
+    <div id="header"></div>
     <article>
   		<img src="https://user-images.githubusercontent.com/62671277/77656689-86ff7700-6f74-11ea-9265-18794c936979.png" alt="Logo3" style="max-width: 100%">
   		<ul>
-  			<li><a href="immagini.html" style="color: rgb(255, 0, 0)"><strong>Galleria Immagini</strong></a></li>
-  			<li><a href="informazioni.html" style="color: rgb(255, 0, 0)"><strong>Scopri di più</strong></a></li>
+  			<li><a href="immagini.html">Galleria Immagini</a></li>
+  			<li><a href="informazioni.html">Scopri di più</a></li>
   		</ul>
   		<br/>
   		<strong>LA NOSTRA MISSION</strong>
@@ -43,14 +53,7 @@
   		Nel breve termine, contiamo di riuscire a vendere piccole quantità di prodotti, con il fine di raccogliere i fondi necessari per far prendere piede all’azienda. Nel lungo termine invece, puntiamo ad espanderci per poter non solo diffondere il prodotto dovunque sia possibile, ma anche per poter trattare altri prodotti non ancora presenti in Europa.
   		</p>
   	</article>
-
-       <footer>
-         <div id="first"></div>
-           <ul class="lista-footer">
-             <li><a href="mailto:giorgiutti.cristian2@gmail.com" style="color: rgb(250,255,250)"><strong><font size="2">Contattaci via Email</font></strong></a></li>
-             <li><a href="https://github.com/UmbrellaDryerAdvanced" style="color: rgb(250,255,250)"><strong><font size="2">Contattaci via GitHub</font></strong></a></li>
-           </ul>
-       </footer>
-    </main>
+    <div id="footer"></div>
   </body>
 </html>
+
