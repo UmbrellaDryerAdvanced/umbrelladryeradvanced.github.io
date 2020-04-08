@@ -24,10 +24,9 @@ article a {
 header {
   margin-top: 0;
   padding-top: 0;
-  top: 0;
   background: rgb(255,0,0);
   background: linear-gradient(180deg, rgba(255,0,0,1) 30%, rgba(210,17,11,1) 52%, rgba(205,15,9,1) 68%, rgba(112,20,17,1) 82%, rgba(73,22,20,1) 89%, rgba(26,25,24,1) 97%);
-  height:250px;
+  height: 200px;
   }
 ul.lista-header {
   padding-left: 0;
@@ -38,37 +37,34 @@ ul.lista-header li {
 ul.lista-header li a {
   color: #ffffff;
   margin-left: 50px;
-  margin-top: 30px;
-  font-size: 3;
+  margin-top: 25px;
+  font-size: 80%;
 }
 header h1 {
+  float: none;
   color: #ffffff;
   text-transform: uppercase;
-  text-align: center;
-  font-size: 2.25rem;
-  margin-top: 0;
-  margin-bottom: 0.1rem;
+  padding-top: 5%;
 }
 header h1 a {
   color: #ffffff;
+  padding-left: 2%;
+  font-size: 100%;
 }
-header h2 {
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 1.15rem;
-  margin-bottom: 2rem;
-  font-weight: normal;
-  opacity: 0.7;
+header img {
+  float: left;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 article {
   line-height: 1.5;
-  margin-bottom: 1em;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
   padding-bottom: 10%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  color: #c9c9c9;
   word-wrap: break-word;
 }
 article h1 {
@@ -76,23 +72,22 @@ article h1 {
   text-transform: capitalize;
 }
 footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: static;
+  height: 60px;
+  bottom: 0px;
   width: 100%;
   text-align: center;
   background: rgb(255,0,0);
 }
-ul.lista-footer {
-   padding-left: 0;
-}
 ul.lista-footer li {
   display: inline-block;
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10px;
 }
 ul.lista-footer li a {
   color: #ffffff;
-  margin-left: 50px;
-  font-size: 2;
+  font-size: 80%;
   font-weight: bold;
 }
