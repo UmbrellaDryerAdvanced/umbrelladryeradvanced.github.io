@@ -25,7 +25,7 @@ article a {
 }
 header {
   background: rgb(255,0,0);
-  background: linear-gradient(180deg, rgba(255,0,0,1) 30%, rgba(210,17,11,1) 52%, rgba(205,15,9,1) 68%, rgba(112,20,17,1) 82%, rgba(73,22,20,1) 89%, rgba(26,25,24,1) 97%);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 30%, rgba(255,85,0,1) 50%, rgba(209,0,255,1) 70%);
   height: 200px;
   }
 ul.lista-header {
