@@ -6,11 +6,13 @@ html {
   background: #1a1918;
 }
 * {
+  margin-top: 0px;
   box-sizing: border-box;
 }
 body {
-  margin: 0px;
-  padding-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   font-size: 16px;
   line-height: 1.5;
   color: #c9c9c9;
@@ -22,8 +24,6 @@ article a {
   color: #ff6a00;
 }
 header {
-  margin-top: 0;
-  padding-top: 0;
   background: rgb(255,0,0);
   background: linear-gradient(180deg, rgba(255,0,0,1) 30%, rgba(210,17,11,1) 52%, rgba(205,15,9,1) 68%, rgba(112,20,17,1) 82%, rgba(73,22,20,1) 89%, rgba(26,25,24,1) 97%);
   height: 200px;
